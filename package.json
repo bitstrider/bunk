@@ -1,0 +1,32 @@
+{
+  "name": "bunk",
+  "version": "1.0.0",
+  "description": "a decidedly featureless, low dependency http server to serve static resource files, with cli support",
+  "main": "lib/bunk.js",
+  "bin": "bin/bunk.js",
+  "preferGlobal": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node bin/bunk.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bitstrider/bunk"
+  },
+  "author": "bitstrider",
+  "license": "MIT",
+  "keywords": [
+    "static",
+    "server",
+    "http",
+    "local",
+    "assets",
+    "cli",
+    "command"
+  ],
+  "dependencies": {
+    "commander": "^2.9.0",
+    "finalhandler": "^1.0.1",
+    "serve-static": "^1.12.1"
+  }
+}
