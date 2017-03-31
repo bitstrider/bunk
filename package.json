@@ -1,6 +1,6 @@
 {
   "name": "bunk",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "a decidedly featureless, low dependency http server to serve static resource files, with cli support",
   "main": "lib/bunk.js",
   "bin": "bin/bunk.js",
