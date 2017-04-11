@@ -6,7 +6,7 @@ var program = require('commander');
 
 program
 	.usage("[options]")
-	.version('1.0.0')
+	.version('1.0.2')
 	.option('-d, --dir <dir>', 'directory of static files to serve, default: '+ bunk.default.DIR)
 	.option('-p, --port <port>', 'port to run http server on, default: ' + bunk.default.PORT)
 	.parse(process.argv)
